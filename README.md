@@ -11,7 +11,7 @@ React Vite, Typescript, Material UI, GraphQL, Jest
 ## Demo 
 Here's a demo gif showing the swiping functionality and the summary view:
 
-<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/ParkingRater.gif" width="900" />
+<img src="https://github.com/BhagyaPrasadSamarathunga/Assets/blob/main/Park_Rater_demo.gif" width="900" />
 
 ## Features 
 - **Tinder View**: Swipe right to "like" a parking lot or left to "dislike" it.
