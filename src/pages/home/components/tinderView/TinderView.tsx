@@ -21,11 +21,7 @@ const TinderView = (): JSX.Element => {
   
   let totalOffset = 0;
   const onSwipe = (direction: any, currentLot:ParkingLot) => {
-    console.log("direction --->", direction);
-    
     if(direction === 'right') {
-      console.log("good lots --->", goodLotsList);
-      
       setGoodLotsList([...goodLotsList, currentLot]);
     } else {
       setBadLotsList([...badLotsList, currentLot]);
@@ -33,7 +29,6 @@ const TinderView = (): JSX.Element => {
   }
   
   const onCardLeftScreen = (lotId: string) => {
-    console.log(lotId + ' left the screen');
     setCurrentDisplayIndex(currentDisplayIndex+1);
   }
   const handelSessionEnd = () => {
@@ -47,9 +42,8 @@ const TinderView = (): JSX.Element => {
   },[data, loading]);
 
   useEffect(() => {
-    if (totalOffset !== 0){
-      console.log('OFFSET');
-    setOffSet(offSet + 5);
+    if (totalOffset !== 0) {
+      setOffSet(offSet + 5);
   }
   },[totalOffset]);
 
@@ -65,11 +59,11 @@ const TinderView = (): JSX.Element => {
       <div className="flex flex-col w-full h-3/4 ">
         <div className="flex flex-col w-full h-full items-center justify-center ">
           {parkingLots && parkingLots.map((CurrentParkingLot)=>
-          <ParkingLotCard 
-            parkingLot={CurrentParkingLot} 
-            onSwipe={(dir) => onSwipe(dir, CurrentParkingLot)} 
-            onCardLeftScreen={() => onCardLeftScreen(CurrentParkingLot.id)} 
-          />
+            <ParkingLotCard 
+              parkingLot={CurrentParkingLot} 
+              onSwipe={(dir) => onSwipe(dir, CurrentParkingLot)} 
+              onCardLeftScreen={() => onCardLeftScreen(CurrentParkingLot.id)} 
+            />
           )}
         </div>
         <div className="flex w-full h-20 place-content-around relative bottom-0 ">
@@ -91,7 +85,6 @@ const TinderView = (): JSX.Element => {
       <SummaryView goodParkingLots={goodLotsList} badParkingLots ={badLotsList}/>
       }
     </>
-
   )
 }
 

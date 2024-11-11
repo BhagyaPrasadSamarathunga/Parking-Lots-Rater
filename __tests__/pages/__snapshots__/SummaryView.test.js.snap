@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary View component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col w-3/4 justify-center items-center"
+  >
+    <div
+      class="mb-4 "
+    >
+      <input
+        class="px-2 py-1 border rounded"
+        placeholder="Filter by name or address"
+        type="text"
+        value=""
+      />
+      <select
+        class="ml-2 px-2 py-1 border rounded"
+      >
+        <option
+          value="name"
+        >
+          Name
+        </option>
+        <option
+          value="address"
+        >
+          Address
+        </option>
+      </select>
+    </div>
+    <h2
+      class="w-full justify-center flex animate-pulse text-stone-800"
+    >
+      Good parking Lots
+    </h2>
+    <div
+      class="flex flex-row overflow-x-auto overflow-x-scroll"
+    >
+      <div
+        class="flex flex-col w-30 h-30 m-2 "
+      >
+        <img
+          class="flex w-20 h-20 place-self-center"
+          src="https://images.freeimages.com/images/large-previews/e8e/underground-parking-1206464.jpg"
+        />
+        <span
+          class="text-xs font-semibold"
+        >
+          Lot Munich 26
+        </span>
+        <span
+          class="text-xs max-w-20 text-wrap font-extralight"
+        >
+          Verdistrasse 26, 81257 München
+        </span>
+      </div>
+      <div
+        class="flex flex-col w-30 h-30 m-2 "
+      >
+        <img
+          class="flex w-20 h-20 place-self-center"
+          src="https://images.freeimages.com/images/large-previews/e8e/underground-parking-1206464.jpg"
+        />
+        <span
+          class="text-xs font-semibold"
+        >
+          Lot Munich 29
+        </span>
+        <span
+          class="text-xs max-w-20 text-wrap font-extralight"
+        >
+          Verdistrasse 209, 81257 München
+        </span>
+      </div>
+    </div>
+    <h2
+      class="w-full justify-center flex animate-pulse text-stone-800"
+    >
+      Bad Parking Lots
+    </h2>
+    <div
+      class="flex flex-row"
+    >
+      <div
+        class="flex flex-col w-30 h-30 m-2 "
+      >
+        <img
+          class="flex w-20 h-20 place-self-center"
+          src="https://images.freeimages.com/images/large-previews/e8e/underground-parking-1206464.jpg"
+        />
+        <span
+          class="text-xs font-semibold"
+        >
+          Lot Munich 24
+        </span>
+        <span
+          class="text-xs max-w-20 text-wrap font-extralight"
+        >
+          Verdistrasse 90, 81257 München
+        </span>
+      </div>
+      <div
+        class="flex flex-col w-30 h-30 m-2 "
+      >
+        <img
+          class="flex w-20 h-20 place-self-center"
+          src="https://images.freeimages.com/images/large-previews/68d/narrow-street-1204865.jpg"
+        />
+        <span
+          class="text-xs font-semibold"
+        >
+          Lot Munich 30
+        </span>
+        <span
+          class="text-xs max-w-20 text-wrap font-extralight"
+        >
+          Amalienburgstr. 130, 81247 München
+        </span>
+      </div>
+      <div
+        class="flex flex-col w-30 h-30 m-2 "
+      >
+        <img
+          class="flex w-20 h-20 place-self-center"
+          src="https://images.freeimages.com/images/large-previews/e8e/underground-parking-1206464.jpg"
+        />
+        <span
+          class="text-xs font-semibold"
+        >
+          Lot Munich 36
+        </span>
+        <span
+          class="text-xs max-w-20 text-wrap font-extralight"
+        >
+          Verdistrasse 146 81257 München
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
