@@ -35,7 +35,7 @@ Open the .env file and add the following line: VITE_GRAPHQL_API_URL=<YOUR_APOLLO
 ## Run App
 
 ```
-npm start
+npm run dev
 ```
 
 ## Run Tests
