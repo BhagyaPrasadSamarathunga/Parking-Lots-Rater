@@ -55,3 +55,4 @@ npm lint
 - Enhance Filtering and Sorting Options
 - Enhance UI/UX
 - Accessibility Improvements
+- Implement the behaviour of "like" and "dislike" button like tinder app
